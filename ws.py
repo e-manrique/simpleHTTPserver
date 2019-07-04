@@ -1,5 +1,6 @@
 from http.server import HTTPServer
-from libs.server import Server 
+from lib.server import Server
+
 
 
 httpd = HTTPServer(('', 8080), Server)
